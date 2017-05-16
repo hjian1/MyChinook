@@ -11,7 +11,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace ChinookSystem.Data.Entities
 {
     [Table("Artists")]
-    class Artist
+    public class Artist
     {
         [Key]
         public int ArtistId { get; set; }
